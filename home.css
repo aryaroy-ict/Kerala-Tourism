@@ -1,0 +1,85 @@
+.bg-img {
+    /* The image used */
+    background-image: url("img/p1.4.jpg");
+  
+    min-height: 528px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+  }
+nav.nav.navbar-default{
+      background-color: rgb(39, 38, 41);
+      font-size: 18px;
+  }
+.headtag.h1, h1{
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.col-md-6{
+    margin-left:300px;
+}
+p.palign1{
+    margin-top:10px;
+    margin-bottom:20px;
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+#grad1{
+    
+        height: 300px;
+        width: 100%;
+        margin-top:20px;
+        background-color: red; /* For browsers that do not support gradients */
+        background-image: linear-gradient(to right, rgb(219, 233, 20) , rgb(228, 13, 23))
+}
+.btn-primary{
+    margin-left:430px;
+    background-color:rgb(34, 34, 201);
+}
+p.palign2{
+    margin-top:20px;
+    font-size: 16px;
+    font-family:'Arial, Helvetica, sans-serif';
+    font-style: italic;
+}
+#grad3{
+    
+    height: 300px;
+    width: 100%;
+    margin-top:20px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(1, 24, 6))
+}
+.imgadj{
+    margin-left:60px;
+    margin-top:20px;
+}
+.btn-basic{
+    margin-left:200px;
+    margin-top:10px;
+    background-color: rgb(78, 78, 233);
+}
+.formadj{
+    margin-left:800px;
+    margin-top:20px;
+
+}
+.footer{
+    background-color: red;
+    margin-top:20px;
+}
+.palign4{
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+}

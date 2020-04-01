@@ -1,0 +1,146 @@
+
+.styleimg{
+    margin-top:30px;
+    margin-left:40px;
+    width:400px;
+    height:300px;
+    
+    
+
+}
+.astyle{
+    margin-top:-50px;
+    
+    font-size: 25px;
+    font-weight:bolder;
+    text-align: center;
+   
+    
+
+}
+.styleimg1{
+    margin-top:30px;
+    margin-left:30px;
+    width:400px;
+    height:300px;
+}
+.styleimg2{
+    margin-top:30px;
+    margin-left:30px;
+    width:400px;
+    height:300px;
+
+}
+.styleimg3{
+    margin-top:30px;
+    margin-left:20px;
+    width:300px;
+    height:400px;
+
+}
+.h1adj{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+   
+   
+}
+#grad3{
+    height: 150px;
+    width: 100%;
+    margin-top:20px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(226, 43, 43) , rgb(224, 21, 106));
+}
+.palign{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+/* ------------ Style of Karsargod ---------------*/
+
+#grad4{
+    height: 190px;
+    width: 100%;
+   
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(119, 190, 53) , rgb(30, 170, 88));
+
+}
+.styleimg4{
+    margin-top:30px;
+    margin-left:20px;
+    width:500px;
+    height:300px;
+
+
+}
+.palign4{
+    font-size: 20px;
+    font-style: italic;
+    margin-top:50px;
+    margin-right:30px;
+    margin-left:-80px;
+    font-family:'Arial, Helvetica, sans-serif';
+
+}
+.stylebtn{
+    margin-left:200px;
+    margin-top:50px;
+
+}
+#grad5{
+    height: 160px;
+    width: 100%;
+    margin-top:5px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(245, 241, 8) , rgb(30, 170, 88));
+
+
+}
+/*------------KANNUR-------------*/
+#grad6{
+    height: 160px;
+    width: 100%;
+    margin-left:0px;
+    margin-top:5px;
+   
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(252, 34, 6) , rgb(239, 243, 12));
+
+}
+/*---------Wayanad---------------*/
+#grad7{
+    height: 160px;
+    width: 100%;
+    margin-left:0px;
+    margin-top:5px;
+   
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(133, 128, 128) , rgb(92, 177, 43));
+}
+/*-------Kollam-------------*/
+#grad8{
+    height: 160px;
+    width: 100%;
+    margin-left:0px;
+    margin-top:5px;
+   
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(236, 150, 150) , rgb(226, 17, 17));
+}
+/*-------------Trivandrum-----------*/
+#grad9{
+    height: 160px;
+    width: 100%;
+    margin-left:0px;
+    margin-top:5px;
+   
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(70, 144, 230) , rgb(13, 16, 168));
+}
+
+
+

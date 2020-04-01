@@ -1,0 +1,26 @@
+.bg-abt{
+    background-color:rgb(184, 130, 130);
+    padding-bottom: 20px;
+    
+}
+.h1cont{
+    color: black;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+}
+.palign5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+.pstyle{
+    font-size: medium;
+    color:blue;
+    text-align: center;
+
+}
+.palign4{
+    text-align: center;
+}
