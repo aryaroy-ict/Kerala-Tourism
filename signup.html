@@ -11,17 +11,25 @@
     <div class="conatiner-fluid bg-sign">
         <h1 class="h1adj">Join Us to Explore Kerala</h1>
             <div class="formadj">
-                <form>
+                <form action ="signup.html"  onsubmit="return !!(myname()& mypass()& myphone()& myadd())">
                     <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname" placeholder="Enter your First name"><br><br>
+                    <input type="text" id="fname" name="fname" required><br><br>
+                    <label for="check1" id="check1"></label><br>
                     <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname" placeholder="Enter your Last name"><br><br>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="check2" id="check2"></label><br>
                     <label for="username"> UserName:</label><br>
                     <input type="text" id="username" name="username"><br><br>
+                    <label for="check3" id="check3"></label><br>
                     <label for="password"> Password:</label><br>
-                    <input type="text"  id="password" name="password"> <br><br>
+                    <input type="password"  id="pass"  name="password" required> <br><br>
+                    <label for="check4" id="check4"></label><br>
                     <label for="password"> Confirm Password:</label><br>
-                    <input type="text"  id="password" name="Confirm password"> <br><br>
+                    <input type="password"  id="cpass" name="Confirm password" required> <br><br>
+                    <label for="check5" id="check5"></label><br>
+                    <label for="number"> PhoneNumber:</label><br>
+                    <input type="text"  id="phoneno" name="Phonenumber"> <br><br>
+                    <label for="check6" id="check6"></label><br>
                     <input type="radio" id="male" name="gender" value="male">
                     <label for="male">Male</label>
                     <input type="radio" id="female" name="gender" value="female">
@@ -29,12 +37,13 @@
                     <input type="radio" id="other" name="gender" value="other">
                     <label for="other">Other</label><br><br>
                     <label for="address">Address for Communication:</label><br>
-                    <textarea rows="4" cols="50" name="comment" form="usrform" placeholder="Enter the Address for communication"></textarea><br>
-                    <button type="submit" class="btn btn-default">Submit</button>
+                    <textarea rows="4" cols="50" id="add1" name="comment" form="usrform" placeholder="Enter the Address for communication"></textarea><br>
+                    <label for="check7" id="check7"></label><br>
+                    <button type="submit" id="mybtn" class="btn btn-default">Submit</button>
                     <a href="Homepage.html" target="_blank">SignIn</a>
 
                 </form>
-
+                <script src="signup.js"></script>
             </div>
 
     </div>
